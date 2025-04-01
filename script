@@ -1,1 +1,54 @@
 Task-1 craeting new branch "staging" added
+====Task-1 cmd ====
+new-task-1
+cd new-task-1
+git init
+vi script
+git status
+git branch -a
+ls
+git add script
+git status
+git commit -m "Git new brnch added"
+git config --global user.email "prajwalhanchianl917@gmail.com"
+git config --global user.name "Git-Prajwal-GH"
+git config --list
+git status
+git commit -m "Git new brnch added"
+git log -p
+git branch -a
+git branch staging
+git checkout staging
+git branch -a
+ls
+cat script
+git remote add origin https://github.com/Git-Prajwal-GH/Task-1.git
+git push -u origin master
+git push -u origin staging
+git branch -a
+git branch
+git push -u origin main
+git push -M main
+git push origin -M main
+git branch -a
+git switch master
+git branch -a
+git push origin -M main
+git branch -M master main
+git remote add origin https://github.com/Git-Prajwal-GH/Task-1.git
+git branch -M master main
+git push -u origin master main
+git switch staging
+git push -u origin master main
+git branch -M master main
+git branch
+ls
+vi script
+git push
+git status
+git add .
+git status
+git commit -m "new branch added"
+git status
+git push
+git push -u origin staging
